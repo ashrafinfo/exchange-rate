@@ -17,9 +17,10 @@ body{
     padding: 20px;
 }
 
-h1{
+h3{
     color: var(--primary-color);
     margin: 0;
+    text-align: center;
 }
 
 p{
@@ -76,6 +77,10 @@ select:focus, input:focus, button:focus{
 
 @media(max-width: 600px){
     .currency input{
-        width: 200px;
+        width: 180px;
+    }
+    h3{
+        max-width: 400px;
+        text-align: center;
     }
 }
